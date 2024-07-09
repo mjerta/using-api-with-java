@@ -71,7 +71,7 @@ public class Main {
 
 //    HttpRequest postRequestOpenAI = HttpRequest.newBuilder()
 //      .uri(new URI("https://api.openai.com/v1/chat/completions"))
-//      .header("Authorization", "Bearer " +  "sk-proj-ChY94bBfrZ76YuZsC3kST3BlbkFJw0CPfamsijRN2xI6z0f3")
+//      .header("Authorization", "Bearer " +  apiKeyOpenAI)
 //      .header("Content-Type", "application/json")
 //      .POST(BodyPublishers.ofString("    {\n" +
 //        "      \"model\": \"gpt-3.5-turbo\",\n" +
